@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -o my_asm_output.s $CFILE.c
+gcc $CFILE.c -masm=intel -fverbose-asm -03 -S -o- |less
