@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
 *main - entry point
 *
@@ -6,9 +6,9 @@
 */
 int main(void)
 {
-int n = 0;
-for (; 0 < 10 ; n++)
-putchar('0' + 0);
+int a = 0;
+for (; a < 10 ; a++)
+putchar('0' + a);
 putchar('\n');
 return (0);
 }
