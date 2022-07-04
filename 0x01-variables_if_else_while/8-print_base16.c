@@ -19,6 +19,6 @@ for (i = 0; i < 6; i++)
 putchar('0' + a);
 a++;
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
