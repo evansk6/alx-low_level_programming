@@ -9,21 +9,23 @@
 int main(void)
 {
 int n;
-int 1astn;
+
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-1astn = n % 10;
-if (1asten > 5)
+printf("last digit of %d is ", n);
+if (n > 5)
 {
-printf("last digit of %d is %d and is greater than 5\n", n 1asten);
+printf("greater than 5");
 }
-else if (1asten == 0)
+if (n == 0)
 {
-printf("last digit of %d is %d is 0\n", n, 1asten);
+printf("0");
 }
-else
+if (n < 6 && n != 0)
 {
-printf("last digit of %d is %d and is less than 6 and not 0\n", n, 1asten);
+printf("less than 6 not 0");
 }
+printf('\n');
+
 return (0);
 }
