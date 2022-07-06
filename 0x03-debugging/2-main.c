@@ -1,31 +1,8 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+#include "main.h"
 
-
-
-int largest_number(int a, int b, int c)
-{
-
-	int largest;
-
-	if (a > b && a > c)
-	{
-		largest = a;
-	}
-	else if (b > a && b > c)
-	{
-		largest = b;
-	}
-	else
-	{
-		largest = c;
-	}
-
-	return (largest);
-}
 /**
- * main - debugging example
+ * main - prints the largest of 3 integers
  * return: 0
  */
 int main(void)
