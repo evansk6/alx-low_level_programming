@@ -1,11 +1,11 @@
 #include "main.h"
+
 /**
-* main - prints putchar
-* description:A program that prints _putchar
+* main - print _putchar
 * Return: always return 0
 */
 
-int main(void)
+void print_alphabet(void)
 
 {
 	_putchar('_');
