@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main -> printing line
- * @n: integer parameter
+ * print_diagonal -> printing line
+ * @n: integer param
  */
 void print_diagonal(int n)
 {
