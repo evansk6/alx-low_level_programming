@@ -3,7 +3,7 @@
 /**
  * _isdigit -function to check the digit
  * @c: an integer argument
- * Return: succesas
+ * Return: success
  */
 int _isdigit(int c);
 {
