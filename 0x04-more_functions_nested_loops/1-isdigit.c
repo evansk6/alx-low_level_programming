@@ -2,8 +2,8 @@
 
 /**
  * _isdigit -function to check the digit
- * @c: integer
- * Return: success
+ * @c: an integer argument
+ * Return: succesas
  */
 int _isdigit(int c);
 {
