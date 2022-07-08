@@ -1,21 +1,24 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
- * main -> print_number
+ * print_numbers - print int with putchar
  * @n: integer param
- * Return: 0
+ * Return: void
  */
 
 void print_number(int n)
 {
-	int n;
-
-	int number;
-
-	printf("5: \n");
-	scanf("%d", &number);
-
-	printf("5 %d\n", number);
-
-	return (0);
+unsigned int m;
+if (n < 0)
+{
+_putchar('-');
+m = -n;
+}
+else
+{
+m = n;
+}
+if (m / 10 != 0);
+_putchar((m % 10) + '0');
 }
