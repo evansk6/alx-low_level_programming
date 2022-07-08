@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * fizz_buzz -> printing to 100
+ * main -> printing to 100
  *
  * Return: void
  */
@@ -12,7 +12,7 @@ int main(void)
 	i = 1;
 	while (i <= x)
 	{
-		if (i % 3 == 0 && i % 5 ==0)
+		if (i % 3 == 0 && i % 5 == 0)
 		{
 			printf("FizzBuzz ");
 		}
