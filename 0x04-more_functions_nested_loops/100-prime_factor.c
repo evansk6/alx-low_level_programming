@@ -13,7 +13,6 @@ int main(void)
 
 	n = 612852475143;
 	for (x = 2; x < n; x++)
-	
 	{
 		while (n % x == 0)
 			n = n / x;
