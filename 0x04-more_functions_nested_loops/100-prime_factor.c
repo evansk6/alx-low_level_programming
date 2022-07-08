@@ -12,7 +12,7 @@ int main(void)
 	long n, x;
 
 	n = 612852475143;
-	for (x = 2; x < n; x++);
+	for (x = 2; x < n; x++)
 	
 	{
 		while (n % x == 0)
