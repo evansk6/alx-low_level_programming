@@ -4,13 +4,13 @@
  *
  * Return: void
  */
-void main(void)
+int main(void)
 {
 	int x = 100;
 	int  i;
 
 	i = 1;
-	while (i <= p)
+	while (i <= x)
 	{
 		if (i % 3 == 0 && i % 5 ==0)
 		{
@@ -22,7 +22,7 @@ void main(void)
 		}
 		else if (i % 5 == 0)
 		{
-			if (i < p)
+			if (i < x)
 				printf("Buzz ");
 			else
 				printf("Buzz ");
@@ -32,7 +32,7 @@ void main(void)
 			printf("%i ", i);
 		}
 
-		i++
+		i++;
 
 	}
 	printf("\n");
