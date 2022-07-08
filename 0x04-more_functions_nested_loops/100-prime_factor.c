@@ -19,7 +19,7 @@ int main(void)
 			n = n / x;
 	}
 
-	printf("%1lu\n", n);
+	printf("%lu\n", n);
 
 	return (0);
 }
