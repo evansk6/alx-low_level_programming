@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-* main - entry point
-*
+* print_sign -> prints sign based on condition
+*@n: argument passed
 * Return: 1, 0, -1
 */
 int print_sign(int n)
