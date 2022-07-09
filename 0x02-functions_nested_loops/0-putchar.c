@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
-* main - print _putchar
+* main -> print alphabet
 * Return: always return 0
 */
 
-void print_alphabet(void)
+void printalphabety(void)
 
 {
+
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
@@ -19,6 +20,4 @@ void print_alphabet(void)
 	_putchar('\n');
 
 	return (0);
-
 }
-
