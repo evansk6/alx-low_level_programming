@@ -4,7 +4,7 @@
 /**
  * main -> assign a random nuber to the variable n and prints out
  * based a condition
- * Return : always return 0
+ * Return: always return 0
  */
 int main(void)
 {

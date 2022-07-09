@@ -3,9 +3,9 @@
 #include<stdio.h>
 
 /**
-*main - entry point
-* 
-*Return : always return 0
+*main -> assign a random number to the variable n each time it is executed
+*and print the last digit of the number stored in the variable n
+*Return: always return 0
 */
 int main(void)
 {
@@ -26,7 +26,7 @@ if (n < 6 && n != 0)
 {
 printf("less than 6 not 0");
 }
-printf('\n');
+printf("\n");
 
 return (0);
 }
