@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - entry point
- * 
- * return : always return 0
+ * main -> assign a random nuber to the variable n and prints out
+ * based a condition
+ * Return : always return 0
  */
 int main(void)
 {
