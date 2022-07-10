@@ -4,11 +4,8 @@
 * main -> print alphabet
 * Return: always return 0
 */
-
-void printalphabety(void)
-
+void print_alphabet(void)
 {
-
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
