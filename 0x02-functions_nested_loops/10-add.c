@@ -5,10 +5,10 @@
  * add two integer
  * Return: return always 0
  */
-int main()
+int main(void)
 {
 	int x, y, sum;
-	
+
 	printf("\n4: ");
 	scanf("%d", &x);
 	printf("\n5: ");
