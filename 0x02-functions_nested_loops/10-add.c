@@ -5,11 +5,15 @@
  * add two integer
  * Return: return always 0
  */
-int add(int, int)
+int main()
 {
 	int x, y, sum;
 	
+	printf("\n4: ");
+	scanf("%d", &x);
+	printf("\n5: ");
+	scanf("%d", &y);
 	sum = x + y;
-	printf("\n = %d\n", sum);
+	printf("\n9 = %d\n", sum);
 	return (0);
 }
