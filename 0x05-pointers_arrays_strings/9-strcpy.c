@@ -2,20 +2,21 @@
 #include <string.h>
 
 /**
- * * strncpy -> copy the string
+ *  _strcpy -> copy the string
  * @dest: param
  * @src: param
- * @n: param
  * Return: dest
  */
-char* strncpy(char *dest, char *src, size_t n)
+char *_strcpy(char *dest, char *src)
 {
-	size_t i;
+	char *start = dest;
 
-	for (i = 0; i < n && src[i] != '\0'; i++)
-		dest[i] = src[i];
-	for (; i < n; i++)
-		dest[i] = '\0';
-
-	return (dest);
+	while (*src != '\0')
+	{
+		*dest = *src;
+		dest++;
+		src++;
+	}
+	*dest = '\0';
+	return (start);
 }
