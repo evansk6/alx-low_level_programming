@@ -9,17 +9,17 @@
  */
 void print_array(int *a, int n)
 {
-	int arr[n];
-	int i;
+	int n;
+	int a;
 
-	for (i = 0; i < n; i++)
+	for (a = 0; a < n; a++)
 	{
-		printf("%d :", i);
-		scanf("%d ", arr[i]);
+		printf("%d ,", a);
+		scanf("%d ", &arr[a]);
 	}
-	for (i = 0; i < n; i++)
+	for (a = 0; a < n; a++)
 	{
-	printf("%d ", arr[i]);
+	printf("%d ", arr[a]);
 	}
 	printf("\n");
 }
