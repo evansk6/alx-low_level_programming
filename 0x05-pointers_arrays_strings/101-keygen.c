@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int pass, num;
+	int pass, sum;
 
 	srand(time(NULL));
 	sum = 0;
