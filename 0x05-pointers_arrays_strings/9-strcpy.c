@@ -2,12 +2,13 @@
 #include <string.h>
 
 /**
- * *_strcpy -> copy the string
+ * * strncpy -> copy the string
  * @dest: param
  * @src: param
+ * @n: param
  * Return: dest
  */
-char *_strcpy(char *dest, char *src)
+char* strncpy(char *dest, char *src, size_t n)
 {
 	size_t i;
 

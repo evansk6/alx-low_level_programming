@@ -5,21 +5,20 @@
  * print_array -> element of an array
  * @a: param 1
  * @n: parameter 2
- * Return: always 0
+ * Return: void.
  */
 void print_array(int *a, int n)
 {
-	int n;
-	int a;
+	int i;
 
-	for (a = 0; a < n; a++)
+	for (i = 0; i < n; i++)
 	{
-		printf("%d ,", a);
-		scanf("%d ", &arr[a]);
-	}
-	for (a = 0; a < n; a++)
-	{
-	printf("%d ", arr[a]);
+		printf("%d", a[i]);
+		if (i != n - 1)
+		{
+			printf(",");
+			printf(" ");
+		}
 	}
 	printf("\n");
 }
