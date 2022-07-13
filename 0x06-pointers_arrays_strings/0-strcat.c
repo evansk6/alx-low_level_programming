@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * *_strcat -> function
+ * _strcat -> function
  * @*dest: param
  * *src: param
  * Return: a string
