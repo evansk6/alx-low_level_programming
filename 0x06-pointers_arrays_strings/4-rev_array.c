@@ -4,7 +4,7 @@
  * reverse_array -> function
  * @a: param
  * @n: param
- * Return: 
+ * Return: array
  */
 void reverse_array(int *a, int n)
 {
