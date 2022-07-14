@@ -3,8 +3,8 @@
 
 /**
  * _strcat -> function
- * @*dest: param
- * *src: param
+ * @dest: param
+ * @src: param
  * Return: a string
  */
 char *_strcat(char *dest, char *src)
