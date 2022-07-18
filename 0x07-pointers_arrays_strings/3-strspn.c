@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strspm -> set of bytes
+ * _strspn -> set of bytes
  * @s: param
  * @accept: param
  * Return: string
