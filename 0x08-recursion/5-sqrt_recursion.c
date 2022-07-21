@@ -11,8 +11,22 @@
 int helperFunction(int num, int i)
 int _sqrt_recursion(int n)
 {
-	if (n < 0)
+	return (_sqt(n, 1));
+}
+
+/**
+ * _sqrt -> square root
+ * @n: num param
+ * @i: param
+ * Return: 0
+ */
+int _sqrt(int n, int i)
+{
+	int square = i * i;
+
+	if (square > n)
 		return (-1);
-	else
-		return (helperFunction(n, 0));
+	if (square == n)
+		return (1);
+	return (_sqrt(n, i + 1));
 }
