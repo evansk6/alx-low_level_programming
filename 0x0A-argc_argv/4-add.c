@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 
 /**
  * main -> adds the numbers
@@ -9,7 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int result - 0, num, i, j, k;
+	int result = 0, num, i, j, k;
 
 	for(i = 1; i < argc; i++)
 	{
