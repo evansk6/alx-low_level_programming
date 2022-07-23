@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main -> multiplies
@@ -6,7 +7,7 @@
  * @argv: param
  * Return: 0
  */
-int main(int argc, char argv[])
+int main(int argc, char *argv[])
 {
 	int result, num1, num2;
 
@@ -15,8 +16,8 @@ int main(int argc, char argv[])
 		printf("%s\n", "Error");
 		return (1);
 	}
-	num1 = (argv[1]);
-	num2 = (argv[2]);
+	num1 = atoi(argv[1]);
+	num2 = atoi(argv[2]);
 	result = num1 * num2;
 
 	printf("%d\n", result);
