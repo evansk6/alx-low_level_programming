@@ -1,1 +1,1 @@
-file for structures typedef
+this is a README file for structures, typedef
