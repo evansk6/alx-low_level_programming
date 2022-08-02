@@ -2,6 +2,8 @@
 
 /**
  * init_dog -> variables
+ * @d: structure param
+ * @dog: param
  * @name: param
  * @age: paramm
  * @owner: param
