@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * print_string -> print strings
+ * print_strings -> print strings
  * @separator: param
  * @n: num param
  * Return: void
